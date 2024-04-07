@@ -1,0 +1,106 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 7, 2024, 12:51:45 AM
+    Author     : Admin
+*/
+body{
+  background: mistyrose;
+}
+h1{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+
+}
+h2{
+    margin-bottom: 30px;
+}
+.form-group{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea{    
+      width: 458px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-left: 100px;
+}
+.selection {
+    display: flex;
+    width: 5%;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.fullname{
+    
+    margin-bottom: 8px;
+    margin-left: 66px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.fullname-label{
+    margin-top: 150px;
+}
+.ID{
+    
+    margin-bottom: 8px;
+    margin-left: 118px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.ID-label{
+    
+    justify-content: center;
+    align-items: center;
+}
+.comment{
+    display: flex;
+    margin-bottom: 8px;
+    margin-left: 140px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.center {
+    display: block;
+    justify-content: center;
+    padding: auto;
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 600px;
+}
+.button{
+    margin-top: 15px;
+    
+}
+.field{
+    display: block;
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+.list{
+    width: 100%;
+}
+.checkbox-group{
+    margin-left: 140px;
+    display: block;
+    width: 20%;
+}
+.subject{
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+}
